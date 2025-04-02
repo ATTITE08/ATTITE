@@ -1,0 +1,127 @@
+body {
+    background: url(./logo.jpg) fixed no-repeat center/cover;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /*background: red;*/
+    margin: auto;
+    padding: 0;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    font-family: cursive monospace;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+}
+
+.menu-cam {
+    display: flex;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: blueviolet;
+    box-shadow: 0 15px 15px 0 black;
+    font-size: 3rem;
+    font-family: cursive;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 0;
+    text-align: left;
+}
+
+h1 {
+    color: blue;
+    box-shadow: 0 15px 15px 0 black;
+    font-size: 2rem;
+    font-family: parisienne cursive;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: right;
+    color: rgba(4, 238, 24, 0.796);
+}
+
+form {
+    border: 2px solid skyblue;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.menu {
+    display: flex;
+    /* Aligne les éléments horizontalement */
+    list-style: none;
+    /* Supprime les puces */
+    padding: 0;
+    justify-content: right;
+    /* Répartit les éléments sur toute la largeur */
+}
+
+.menu li {
+    padding: 10px 20px;
+    /* Ajoute un espacement entre les éléments */
+    background-color: #dc0e0e;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+#pl,
+#pa,
+#po,
+#er,
+#bh,
+#sa,
+#do,
+#rp,
+#ok {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+}
