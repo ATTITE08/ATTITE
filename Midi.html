@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Midi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🍽️ MENU DE MIDI</h1>
+        <p>Bienvenue ! Commandez et vous ne serez pas déçus.</p>
+    </header>
+
+    <main>
+        <section class="menu-container">
+            <div class="menu-item">
+                <img src="eru.jpg" alt="Eru">
+                <p><strong>Eru</strong> - 1000 FCFA</p>
+            </div>
+            <div class="menu-item">
+                <img src="okok.jpeg" alt="Okok">
+                <p><strong>Okok</strong> - 1000 FCFA</p>
+            </div>
+            <div class="menu-item">
+                <img src="riz poulet.jpg" alt="Riz poulet">
+                <p><strong>Riz Poulet</strong> - 1000 FCFA</p>
+            </div>
+            <div class="menu-item">
+                <img src="salade.jpeg" alt="Salade">
+                <p><strong>Salade</strong> - 1000 FCFA</p>
+            </div>
+            <div class="menu-item">
+                <img src="poisson.jpeg" alt="Poisson frit">
+                <p><strong>Poisson frit</strong> - 1000 FCFA</p>
+            </div>
+            <div class="menu-item">
+                <img src="dolet.jpeg" alt="Dolet">
+                <p><strong>Dolet</strong> - 1000 FCFA</p>
+            </div>
+        </section>
+
+        <section class="commande">
+            <h2>📌 Passez votre commande</h2>
+            <form id="commandeForm">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="telephone">Contact:</label>
+                <input type="tel" id="telephone" name="telephone" required>
+
+                <label for="produit">Produit :</label>
+                <select id="produit" name="produit" required>
+                    <option value="okok" data-prix="1000">Okok - 1000 FCFA</option>
+                    <option value="eru" data-prix="1000">Eru - 1000 FCFA</option>
+                    <option value="dolet" data-prix="1000">Dolet - 1000 FCFA</option>
+                    <option value="riz_poulet" data-prix="1000">Riz Poulet - 1000 FCFA</option>
+                    <option value="poisson_frit" data-prix="1000">Poisson frit - 1000 FCFA</option>
+                    <option value="salade" data-prix="1000">Salade - 1000 FCFA</option>
+                </select>
+
+                <label for="quantite">Quantité :</label>
+                <input type="number" id="quantite" name="quantite" min="1" value="1" required>
+
+                <p><strong>Total :</strong> <span id="total">1000 FCFA</span></p>
+
+                <button type="submit">Commander</button>
+            </form>
+            <p id="statusMessage"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
