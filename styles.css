@@ -1,0 +1,253 @@
+    body {
+        background: url(./fond_jaune.jpg);
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        color: #181818;
+        margin: auto;
+    }
+    
+    #bloc_page {
+        width: 900px;
+        margin: auto;
+    }
+    
+    header {
+        background: aqua;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    #titre_principal {
+        display: inline-block;
+    }
+    
+    #logo {
+        display: inline-block;
+    }
+    
+    #logo,
+    header h1 {
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+    
+    #logo img {
+        height: 40px;
+        width: 55px;
+        border-radius: 60px;
+    }
+    
+    nav {
+        display: inline-block;
+        width: 700px;
+        height: auto;
+        text-align: right;
+        align-content: flex-end;
+        padding-bottom: 0px;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: 10px;
+        padding: 0px;
+    }
+    
+    nav a {
+        font-size: 1.3em;
+        color: #181818;
+        font-weight: bold;
+        padding-bottom: 0px;
+        text-decoration: none;
+        justify-content: flex-end;
+    }
+    
+    nav a:hover {
+        color: orangered;
+        border-bottom: 3px solid greenyellow;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+    }
+    
+    section h1,
+    footer h1,
+    nav a {
+        font-family: Arial, Helvetica, serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    
+    header h1 {
+        font-family: Arial, Helvetica, serif;
+        font-size: 2.5em;
+        font-weight: normal;
+    }
+    
+    header h2 {
+        font-family: Arial, Helvetica, serif;
+        font-size: 1.1em;
+        margin-top: 0px;
+        font-weight: normal;
+    }
+    
+    #banniere_image {
+        margin-top: 15px;
+        height: 400px;
+        border-radius: 5px;
+        background: url('./pont.jpg') no-repeat;
+        position: relative;
+        box-shadow: 0px 4px 4px #1c1a19;
+        margin-bottom: 25px;
+    }
+    
+    #banniere_description {
+        position: absolute;
+        bottom: 0;
+        border-radius: 0px 0px 5px 5px;
+        width: 99.5%;
+        height: 33px;
+        padding-top: 15px;
+        padding-left: 4px;
+        background-color: rgb(24, 24, 24);
+        background-color: rgba(24, 24, 24, 0.8);
+        color: white;
+        font-size: 0.8em;
+    }
+    
+    .bouton_rouge img {
+        border: 0;
+        height: 11px;
+        width: 7px;
+        padding: 5px;
+        border-radius: 0 20px 20px 0;
+    }
+    
+    .bouton_rouge {
+        display: flex;
+        align-content: center;
+        height: 25px;
+        width: 12%;
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        background: url('./rouge.jpg') repeat-x;
+        border: 1px solid #760001;
+        border-radius: 5px;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 3px 8px 0px 8px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    article,
+    aside {
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+    }
+    
+    .ico_categorie {
+        height: 30px;
+        width: 4opx;
+        background: none;
+        border-radius: 60px;
+    }
+    
+    #bannier article {
+        width: 625px;
+        margin-right: 15px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+    }
+    
+    aside {
+        position: relative;
+        top: 30px;
+        width: 235px;
+        background-color: #706b64;
+        box-shadow: 0px 2px 5px #1c1a19;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        font-size: 0.9em;
+        display: inline-block;
+        vertical-align: top;
+        text-align: justify;
+    }
+    
+    article p {
+        font-size: 0.8em;
+        width: 625px;
+        margin-right: 15px;
+    }
+    
+    #photo_zozor {
+        text-align: center;
+    }
+    
+    #photo_zozor img {
+        border: 1px solid #181818;
+        height: 100px;
+        width: 90px;
+    }
+    
+    aside img {
+        margin-right: 5px;
+        height: 45px;
+    }
+    
+    #fleche_bulle {
+        position: absolute;
+        top: 100px;
+        left: -20px;
+    }
+    
+    footer {
+        background: aqua;
+        padding-top: 25px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: space-around;
+    }
+    
+    footer p,
+    footer ul {
+        font-size: 0.8em;
+    }
+    
+    #mes_photos {
+        width: 35%;
+    }
+    
+    #mes_amis {
+        width: 31%;
+    }
+    
+    #tweet,
+    #mes_photos,
+    #mes_amis {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #mes_photos img {
+        border: 1px solid #181818;
+        margin-right: 2px;
+    }
+    
+    #mes_amis ul {
+        list-style-image: url('./ico_lien.png');
+    }
+    
+    footer img {
+        margin-right: 5px;
+        height: 55px;
+        width: 60px;
+    }
